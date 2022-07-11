@@ -139,3 +139,12 @@ a.instaicon img {
   margin-right: 8px;
   align-items: center;
 }
+
+
+a.linkedIcon img {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+  align-items: center;
+}
