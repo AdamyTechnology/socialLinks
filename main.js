@@ -35,7 +35,7 @@ sr.reveal('.linkedIcon', {
   origin: 'bottom',
   distance: '140px', // A distancia do origin para a posição original do elemento.
   duration: 1100, // A duração da animação em ms
-  delay: 200, // O delay para a animação acontecer
+  delay: 250, // O delay para a animação acontecer
   reset: false // Ao sair do campo de tela, a animação não acontecerá novamente caso eu passe por ela novamente.
 })
 sr.reveal('.instaicon', {
@@ -49,13 +49,13 @@ sr.reveal('.faceicon', {
   origin: 'bottom',
   distance: '140px', // A distancia do origin para a posição original do elemento.
   duration: 1300, // A duração da animação em ms
-  delay: 400, // O delay para a animação acontecer
+  delay: 350, // O delay para a animação acontecer
   reset: false // Ao sair do campo de tela, a animação não acontecerá novamente caso eu passe por ela novamente.
 })
 sr.reveal('.giticon', {
   origin: 'bottom',
   distance: '140px', // A distancia do origin para a posição original do elemento.
   duration: 1400, // A duração da animação em ms
-  delay: 500, // O delay para a animação acontecer
+  delay: 400, // O delay para a animação acontecer
   reset: false // Ao sair do campo de tela, a animação não acontecerá novamente caso eu passe por ela novamente.
 })
