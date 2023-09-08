@@ -7,7 +7,7 @@
 html {
   --bg-color: #edf2ff;
   --text-color: #00082f;
-  --primary-color: #4263eb;
+  --primary-color: #767881;
   --primary-color-dark: #364fc7;
 }
 
@@ -19,7 +19,7 @@ body {
 
 body.degrade {
   height: 100%;
-  background-image: linear-gradient(to bottom, #00082f, #4263eb);
+  background-image: linear-gradient(to bottom, #93959c,#252525);
   --text-color: white;
   background-attachment: fixed;
 }
@@ -48,10 +48,11 @@ img {
 
 img.avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
   padding: 3.7px;
-  border: var(--primary-color) solid 4px;
+  border: white solid 1px;
 }
 h1 {
   font-size: 32px;
@@ -91,7 +92,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: var(--primary-color-dark);
+  background-color: #464545;
 }
 
 footer {
